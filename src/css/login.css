@@ -1,0 +1,27 @@
+#container{
+
+    width: 100vw;
+    height: calc( 100vh - 80px);
+    background-color: aqua;
+
+
+}
+
+#animation{
+    transform: translate(20%, -20%);
+    border-radius: 100%;
+    width: 250%;
+    height: 200%;
+    background: black;
+    display: block;
+}
+/* translate(-80%, -20%) */
+
+#welcome{
+    top: 50%;
+    position: absolute;
+}
+#register{
+    top: 50%;
+position: absolute;
+}
